@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-color: #d33535;
+    box-shadow: 22px 33px 28px -10px rgba(117,104,110,1);
+}
+.card p{
+    color: #e3dfdf;
+    font-size: 25px;
+}
+.rubik-pixels-regular {
+    font-family: "Rubik Pixels", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.sedgwick-ave-display-regular {
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.dancing-script {
+                     font-family: "Dancing Script", cursive;
+                     font-optical-sizing: auto;
+                     font-weight: 400;
+                     font-style: normal;
+                 }
+.fjalla-one-regular {
+                      font-family: "Fjalla One", sans-serif;
+                      font-weight: 400;
+                      font-style: normal;
+                  }
+.indie-flower-regular {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
