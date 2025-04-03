@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 20vh;
+    background: #8D8484;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+footer {
+    height: 20vh;
+    background: #BDBDBD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+main {
+    display: flex;
+    height: 60vh;
+}
+section{
+    height: 20vh;
+    width: 73vw;
+}
+aside{
+    height: 30vh;
+    width: 27vw;
+}
+.main__contents1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #776969;
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.main__contents2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #643030;
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.main__contents3{
+    background: #441818;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.main__spams1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #937575;
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.main__spams2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #644C4C;
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
