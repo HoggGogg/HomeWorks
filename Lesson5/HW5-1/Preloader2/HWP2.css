@@ -1,0 +1,98 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/road.png");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.animation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.animation img{
+    height: 350px;
+}
+.girl{
+    padding-top: 170px;
+    animation: girl 6s ease-in-out infinite alternate;
+}
+.birds{
+    height: 100px;
+    width: 100px;
+    image-orientation: initial;
+    animation: birds 6s ease-in-out infinite alternate;
+}
+@keyframes girl {
+    from{
+    transform: translate(0, 0);
+    }
+    10%{
+        transform: translate(20px, 20px);
+    }
+    20%{
+        transform: translate(60px, -20px);
+    }
+    30%{
+        transform: translate(90px, 20px);
+    }
+    40%{
+         transform: translate(120px, -25px);
+     }
+    50%{
+        transform: translate(150px, 25px);
+    }
+    60%{
+        transform: translate(180px, -30px);
+    }
+    70%{
+        transform: translate(210px, 30px);
+    }
+    80%{
+        transform: translate(240px, -35px);
+    }
+    90%{
+        transform: translate(270px, 40px);
+    }
+    to{
+        transform: translate(300px, 0px);
+    }
+}
+@keyframes birds {
+    from{
+        transform: translate(0, 0);
+    }
+    10%{
+        transform: translate(20px, 20px);
+    }
+    20%{
+        transform: translate(45px, -60px);
+    }
+    30%{
+        transform: translate(120px, 44px);
+    }
+    40%{
+        transform: translate(120px, -25px);
+    }
+    50%{
+        transform: translate(150px, 88px);
+    }
+    60%{
+        transform: translate(180px, -52px);
+    }
+    70%{
+        transform: translate(210px, 45px);
+    }
+    80%{
+        transform: translate(240px, -66px);
+    }
+    90%{
+        transform: translate(270px, 40px);
+    }
+    to{
+        transform: translate(300px, 0px);
+    }
+}

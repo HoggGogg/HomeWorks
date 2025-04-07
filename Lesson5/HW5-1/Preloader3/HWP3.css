@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cube{
+    height: 564px;
+    width: 765px;
+    background-color: #b13434;
+    border: #2c2828;
+    border: 30px solid;
+    animation: cube 6s ease-in-out infinite ;
+}
+@keyframes cube {
+    from{
+        transform-style: preserve-3d;
+    }
+    50%{
+        transform: scale(2);
+    }
+    70%{
+        transform: skew(44deg);
+    }
+    to{
+        transform-style: revert;
+    }
+}

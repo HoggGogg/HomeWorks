@@ -1,0 +1,24 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border-top: 20px solid red;
+    border-right: 20px solid greenyellow;
+    border-left: 20px solid lightblue;
+    border-bottom: 20px solid violet;
+    animation: preloader 1.5s linear infinite alternate-reverse;
+}
+@keyframes preloader {
+    from{
+        transform: rotate(360deg) skew(20deg);
+    }
+    to{
+        transform: rotate(-360deg) scale(2);
+    }
+}
