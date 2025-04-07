@@ -31,7 +31,7 @@ ul li{
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 96.896%; /* 17.441px */
+    line-height: 96.896%;
     text-transform: uppercase;
 }
 .nav__active-link{
@@ -54,7 +54,7 @@ ul li{
     font-size: 107.088px;
     font-style: normal;
     font-weight: 400;
-    line-height: 88.896%; /* 95.198px */
+    line-height: 88.896%;
     letter-spacing: -2.142px;
     text-transform: uppercase;
     margin: 74px 0 33px 0;
@@ -83,7 +83,7 @@ ul li{
     font-size: 70px;
     font-style: normal;
     font-weight: 400;
-    line-height: 88.896%; /* 62.228px */
+    line-height: 88.896%;
     letter-spacing: -1.4px;
     text-transform: uppercase;
 }
@@ -95,7 +95,7 @@ ul li{
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
-    line-height: 139.896%; /* 33.575px */
+    line-height: 139.896%;
     letter-spacing: -0.48px;
     margin-bottom: 34px;
 }
@@ -111,7 +111,7 @@ ul li{
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 96.896%; /* 17.441px */
+    line-height: 96.896%;
     text-transform: uppercase;
 }
 .img-burgers{
@@ -136,7 +136,7 @@ ul li{
     font-size: 70px;
     font-style: normal;
     font-weight: 400;
-    line-height: 101.896%; /* 71.328px */
+    line-height: 101.896%;
     text-transform: uppercase;
 }
 .burgers-footer button{
@@ -150,6 +150,6 @@ ul li{
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 96.896%; /* 17.441px */
+    line-height: 96.896%;
     text-transform: uppercase;
 }
