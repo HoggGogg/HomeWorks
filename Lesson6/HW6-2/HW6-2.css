@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&family=Rubik+Moonrocks&display=swap');
+
+body{
+    height: 100vh;
+    margin: 0;
+    background-color: #ca3c3c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-registration{
+    width: 38vw;
+    height: 44vh;
+    background: #c89f9f;
+    border-radius: 25px;
+    border: 5px solid #ff2600;
+}
+.form-registration div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(202, 60, 60, 0.21);
+    height: 20%;
+}
+.form-registration div:nth-child(1) h3{
+    font-size: 35px;
+    font-family: "Rubik Moonrocks", sans-serif;
+}
+.form-registration form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+input[type=text],
+input[type=password]{
+    width: 300px;
+    height: 30px;
+    margin: 20px;
+    border-radius: 30px;
+    border: black 1px solid;
+    background: linear-gradient(90deg, rgba(253,29,159,0.738532913165266) 41%, rgba(252,176,69,0.3127626050420168) 56%, rgba(253,29,159,0.3071603641456583) 68%, rgba(131,58,180,0) 100%);
+
+}
+.form-registration>form>div{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Rubik Bubbles", system-ui;
+}
+input[type=checkbox]{
+    border-radius: 30px;
+    border: black 3px solid;
+}
+input[type=submit]{
+    background-color: rgba(202, 60, 60, 0.21);
+    width: 120px;
+    height: 20px;
+    border-radius: 15px;
+    border: black 2px solid;
+    font-family: "Rubik Bubbles", system-ui;
+}
+input::placeholder{
+    font-family: "Rubik Bubbles", system-ui;
+}
