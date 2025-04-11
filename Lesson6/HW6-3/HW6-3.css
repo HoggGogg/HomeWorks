@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Special+Gothic+Condensed+One&display=swap');
+
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form_instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 65vh;
+    width: 25vw;
+    border: #8D8484 2px solid;
+    border-radius: 10px;
+}
+div .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+div .form_med{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form_end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    height: 10vh;
+    width: 25vw;
+    border: #8D8484 2px solid;
+    border-radius: 10px;
+    gap: 10px;
+}
+h1{
+    font-family: "Lobster Two", sans-serif;
+    font-size: 80px;
+}
+h2{
+    color: #8D8484;
+    font-size: 30px;
+}
+h3{
+    font-size: 20px;
+}
+input[type=text]{
+    text-align: center;
+    font-family: "Special Gothic Condensed One", sans-serif;
+    border: #8D8484 2px solid;
+    border-radius: 5px;
+    height: 50px;
+    width: 400px;
+    font-size: 25px;
+    margin: 5px;
+}
+input[type=text]::placeholder{
+    color: #8D8484;
+}
+
+input[type=password]{
+    text-align: center;
+    font-family: "Special Gothic Condensed One", sans-serif;
+    border: #8D8484 2px solid;
+    border-radius: 5px;
+    height: 50px;
+    width: 400px;
+    font-size: 25px;
+    margin: 5px;
+}
+input[type=password]::placeholder{
+    color: #8D8484;
+}
+
+input[type=submit]{
+    text-align: center;
+    font-family: "Special Gothic Condensed One", sans-serif;
+    border: #8D8484 2px solid;
+    border-radius: 8px;
+    height: 50px;
+    width: 410px;
+    background-color: #5f5ff1;
+    color: #eae6e6;
+    font-size: 30px;
+    margin: 20px;
+}
+a{
+    outline: none;
+    text-decoration: none;
+    color: #0e0eec;
+    font-size: 35px;
+    font-family: "Special Gothic Condensed One", sans-serif;
+}
+.form_end a{
+    color: #7070ef;
+    font-size: 20px;
+}
+.forgive{
+    font-size: 16px;
+    font-family: "Lobster Two", sans-serif;
+}
+a img{
+    height: 30px;
+    width: 30px;
+    padding-top: 20px;
+}
