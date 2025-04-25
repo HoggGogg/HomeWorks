@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+.grid {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 10% 35% 35% 10% 10%;
+    grid-template-areas:
+    "head head"
+    "section aside1"
+    "section aside2"
+    "footer1 footer1"
+    "footer2 footer2"
+}
+header{
+    grid-area: head;
+    background: #D9D9D9;
+}
+section{
+    grid-area: section;
+    background: #A4A4A4;
+}
+.a1{
+    grid-area: aside1;
+    background: #7F7A7A;
+}
+.a2{
+    grid-area: aside2;
+    background: #615050;
+}
+.f1{
+    grid-area: footer1;
+    background: #D9D9D9;
+}
+.f2{
+    grid-area: footer2;
+    background: #AFA9A9;
+}

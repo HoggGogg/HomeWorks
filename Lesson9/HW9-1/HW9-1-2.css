@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+.grid{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 1fr 1.2fr 1.3fr 1fr;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-areas:
+"header header header"
+"asideleft sectiontop asideright"
+"asideleft sectionbottom asideright"
+"footer footer footer"
+
+;
+}
+header{
+    grid-area: header;
+    background: #D9D9D9;
+}
+.aone{
+    grid-area: asideleft;
+    background: #C0BDBD;
+}
+.atwo{
+    grid-area: asideright;
+    background: #C0BDBD;
+}
+.sone{
+    grid-area: sectiontop;
+    background: #827878;
+}
+.stwo{
+    grid-area: sectionbottom;
+    background: #B7ADAD;
+}
+footer{
+    grid-area: footer;
+    background: #D9D9D9;
+}
